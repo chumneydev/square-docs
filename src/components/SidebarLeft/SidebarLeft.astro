@@ -1,0 +1,23 @@
+---
+import { SidebarConfig } from '../../config.js';
+
+const { currentPage } = Astro.props;
+const sidebarSections = SidebarConfig.pages;
+
+console.log(sidebarSections);
+
+const sum = (a, b) => a + b;
+
+// Example: Outputs "4" to the CLI terminal
+console.log(sum(2, 2));
+---
+
+
+<ul>
+   { sidebarSections.map((section) =>
+        <div class="section">
+            <h2>{section.text}</h2>
+   
+        </div>
+   )}
+</ul>
