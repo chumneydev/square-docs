@@ -10,4 +10,4 @@ This is the `documentation` for the square grid framework.
 
 ## Beta: 0.0.1
 
-This page will be updated soon.
+This page will be updated soon. (hopefully)
